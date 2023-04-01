@@ -1,0 +1,56 @@
+html {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 290px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+img {
+  position: relative;
+  height: 265px;
+  width: 265px;
+  border-radius: 10px;
+  margin: 4.5% 4.5%;
+}
+
+.card-body {
+  height: 100px;
+}
+
+.card-title {
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  padding: 0px 25px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400, 700;
+}
+.card-text {
+  position: relative;
+  bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+  padding: 0px 20px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400, 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
